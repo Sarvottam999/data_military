@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 5
+names: ['armoured-vehicle', 'artillery', 'person', 'tank', 'truck']
+
+roboflow:
+  workspace: huyen-dinh-xhl3m
+  project: army-vehicle-bve6k
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/huyen-dinh-xhl3m/army-vehicle-bve6k/dataset/1
